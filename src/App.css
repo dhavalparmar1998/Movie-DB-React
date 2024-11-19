@@ -1,0 +1,101 @@
+body {
+    background-color: #000 !important;  /* Black background */
+    color: #fff !important;  /* White text */
+  }
+  #search{
+     background-color: white !important;
+  }
+  
+  .navbar {
+    background-color: #111 !important;  /* Darker black for navbar */
+  }
+  
+  .nav-link, .navbar-brand {
+    color: #fff !important;
+  }
+  
+  .nav-link:hover {
+    color: #ffdd57 !important;  /* Yellow highlight on hover */
+  }
+  #movie{
+    font-size: 25px !important;
+    /* color: yellow !important; */
+    font-weight: bold !important;
+  }
+  #movie:hover{
+    color: yellow !important;
+  }
+  /* Image Styling */
+  img {
+    border-radius: 10px;  /* Rounded corners for images */
+    transition: transform 0.3s ease-in-out;  /* Smooth hover animation */
+  }
+  
+  img:hover {
+    transform: scale(1.05);  /* Scale image on hover */
+  }
+  
+  /* Cast Section Styling */
+  h3 {
+    color: #ffdd57;  /* Different color for Cast title */
+  }
+  
+  .cast-card {
+    margin: 15px 0;
+    background-color: #222;  /* Slightly lighter background */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .cast-card h6 {
+    margin-top: 10px;
+    color: #ffdd57;
+  }
+  
+  /* Cast card image */
+  .cast-card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .cast-card img:hover {
+    transform: translateY(-10px);  /* Lift the image on hover */
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .cast-card {
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .cast-card {
+      width: 100%;  /* Make it 100% width on small screens */
+    }
+  
+    .cast-card img {
+      max-width: 100px;  /* Reduce the size of images on smaller screens */
+    }
+  }
+  
+  
+  /* Button Hover Animation */
+  button {
+    background-color: #ffdd57;
+    border: none;
+    color: #000;
+    padding: 3px;
+    margin: 0 2px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    box-shadow: 0px 0px 10px #ffdd57, 0px 0px 20px #ffdd57;  /* Glow effect */
+  }
+
+  
+  
